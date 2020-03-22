@@ -13,30 +13,31 @@ Database of the application have date, price and variation of Bitcoins in USD
 
 
 
-/date      -  Obtain data in especific day
-Example consult:
-www.domain.com/api/v1/date?date=2020/01/02
-{
-	"date": "2020/01/02"
-}
+/date      -  Obtain data in especific day</br>
+Example consult:</br>
+www.domain.com/api/v1/date?date=2020/01/02</br>
+{</br>
+	"date": "2020/01/02"</br>
+}</br>
+</br>
 
 
+/daterange  - Obtain data in especific date range</br>
+Example consult:</br>
+www.domain.com/api/v1/daterange?startdate=2020/01/02&enddate=2020/03/02</br></br>
+OR</br></br>
+{</br>
+	"startdate": "2020/01/02",</br>
+	"enddate": "2020/03/02"</br>
+}</br>
 
-/daterange  - Obtain data in especific date range
-Example consult:
-www.domain.com/api/v1/daterange?startdate=2020/01/02&enddate=2020/03/02
-OR
-{
-	"startdate": "2020/01/02",
-	"enddate": "2020/03/02"
-}
+</br>
 
-
-
-/rangevariation
-www.domain.com/api/v1/rangevariation?startvar=0.5&endvar=2
-Example consult:
-{
-	"startvar": "0.5",
-	"endvar": "2"
-}
+/rangevariation</br>
+www.domain.com/api/v1/rangevariation?startvar=0.5&endvar=2</br></br>
+OR</br></br>
+Example consult:</br>
+{</br>
+	"startvar": "0.5",</br>
+	"endvar": "2"</br>
+}</br>
