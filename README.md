@@ -8,9 +8,7 @@ Database of the application have date, price and variation of Bitcoins in USD
 /price     -  Price in real time
 
 
-
 /alldata   -  All data in database (2010/07/18 - 2020/03/21)
-
 
 
 /date      -  Obtain data in especific day</br>
