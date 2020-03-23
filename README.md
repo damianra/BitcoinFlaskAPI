@@ -5,13 +5,13 @@ Database of the application have date, price and variation of Bitcoins in USD
 
 
 # End points:
-/price     -  Price in real time
+/api/v1/price     -  Price in real time
 
 
-/alldata   -  All data in database (2010/07/18 - 2020/03/21)
+/api/v1/alldata   -  All data in database (2010/07/18 - 2020/03/21)
 
 
-/date      -  Obtain data in especific day</br>
+/api/v1/date      -  Obtain data in especific day</br>
 Example consult:</br>
 www.domain.com/api/v1/date?date=2020/01/02</br>
 {</br>
@@ -20,7 +20,7 @@ www.domain.com/api/v1/date?date=2020/01/02</br>
 </br>
 
 
-/daterange  - Obtain data in especific date range</br>
+/api/v1/daterange  - Obtain data in especific date range</br>
 Example consult:</br>
 www.domain.com/api/v1/daterange?startdate=2020/01/02&enddate=2020/03/02</br></br>
 OR</br></br>
@@ -31,7 +31,7 @@ OR</br></br>
 
 </br>
 
-/rangevariation</br>
+/api/v1/rangevariation</br>
 www.domain.com/api/v1/rangevariation?startvar=0.5&endvar=2</br></br>
 OR</br></br>
 Example consult:</br>
